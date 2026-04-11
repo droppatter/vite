@@ -52,7 +52,7 @@ export const UI: Ui = {
       displayMode: 'iconToTextOnMobile',
       text: 'Changelog',
       icon: 'i-ri-draft-line',
-    },
+    },    
   ],
   socialLinks: [
     {
@@ -123,7 +123,7 @@ export const FEATURES: Features = {
     {
       authorOrBrand: `${SITE.title}`,
       fallbackTitle: `${SITE.description}`,
-      fallbackBgType: 'plum',
+      fallbackBgType: 'dot',
     },
   ],
   toc: [
@@ -136,10 +136,10 @@ export const FEATURES: Features = {
     },
   ],
   share: [
-    true,
+    false,
     {
-      twitter: [true, '@ste7lin'],
-      bluesky: [true, '@ste7lin.bsky.social'],
+      twitter: false,
+      bluesky: false,
       mastodon: false,
       facebook: false,
       pinterest: false,
@@ -150,10 +150,10 @@ export const FEATURES: Features = {
     },
   ],
   giscus: [
-    true,
+    false,
     {
-      'data-repo': 'lin-stephanie/astro-antfustyle-theme',
-      'data-repo-id': 'R_kgDOLylKbA',
+      'data-repo': 'droppatter/vite',
+      'data-repo-id': '',
       'data-category': 'Giscus',
       'data-category-id': 'DIC_kwDOLylKbM4Cpugn',
       'data-mapping': 'title',
