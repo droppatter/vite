@@ -141,5 +141,8 @@ export default defineConfig({
     /* Toc */
     'i-ri-menu-2-fill',
     'i-ri-menu-3-fill',
+
+    'i-ri-article-line',
+    'i-ri-ship-line',
   ],
 })

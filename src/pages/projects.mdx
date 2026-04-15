@@ -1,7 +1,7 @@
 ---
 title: Projects
-subtitle: Tech Stack & Credits for the Astro AntfuStyle Theme
-description: Tech Stack & Credits for the Astro AntfuStyle Theme
+subtitle: Whither shall the grain market tides flow?
+description: Corn flow
 bgType: dot
 toc: true
 ogImage: true
@@ -27,13 +27,13 @@ import { withBasePath } from '~/utils/path'
     isCentered={true}
   >
     <div slot="head" class="flex flex-wrap justify-center items-center gap-4">
-      <Link class="btn-orange" href={withBasePath('/releases/')}>
-        <span class="i-ph-rocket-launch-duotone"></span>
-        <span class="ml-1.5">Latest Releases</span>
-      </Link>
-      <Link class="btn-violet" href={withBasePath('/prs/')}>
+      <Link class="btn-violet" href={withBasePath('/photos/')}>
         <span class="i-lucide-git-pull-request"></span>
-        <span class="ml-1.5">Recent Pull Requests</span>
+        <span class="ml-1.5">Photos</span>
+      </Link>
+      <Link class="btn-orange" href={withBasePath('/streams/')}>
+        <span class="i-ph-rocket-launch-duotone"></span>
+        <span class="ml-1.5">Streams</span>
       </Link>
     </div>
     <GroupView collectionType="projects" pageToc={frontmatter.toc} />

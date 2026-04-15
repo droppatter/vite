@@ -5,9 +5,9 @@ export const SITE: Site = {
   base: '/',
   title: 'Revisions',
   description: 'Corn flow',
-  author: '',
+  author: 'Refrain',
   lang: 'en',
-  ogLocale: 'en_US',
+  ogLocale: 'zh_CN',
   imageDomains: ['images.unsplash.com'],
 }
 
@@ -16,64 +16,37 @@ export const UI: Ui = {
     {
       path: '/blog',
       title: 'Blog',
-      displayMode: 'alwaysText',
+      displayMode: 'textToIconOnMobile',
       text: 'Blog',
+      icon: 'i-ri-article-line',
     },
     {
       path: '/projects',
       title: 'Projects',
-      displayMode: 'alwaysText',
+      displayMode: 'textToIconOnMobile',
       text: 'Projects',
+      icon: 'i-ri-ship-line',
     },
-    {
-      path: '/highlights',
-      title: 'Highlights',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Highlights',
-      icon: 'i-ri-screenshot-line',
-    },
-    {
-      path: '/photos',
-      title: 'Photos',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Photos',
-      icon: 'i-ri-camera-ai-line',
-    },
-    {
-      path: '/shorts',
-      title: 'Shorts',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Shorts',
-      icon: 'i-meteor-icons-grid',
-    },
-    {
-      path: '/changelog',
-      title: 'Changelog',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Changelog',
-      icon: 'i-ri-draft-line',
-    },    
+    // {
+    //   path: '/photos',
+    //   title: 'Photos',
+    //   displayMode: 'iconToTextOnMobile',
+    //   text: 'Photos',
+    //   icon: 'i-ri-camera-ai-line',
+    // },
   ],
   socialLinks: [
     {
       link: 'https://github.com/droppatter',
       title: 'Github',
-      displayMode: 'alwaysIcon',
+      displayMode: 'iconHiddenOnMobile',
       icon: 'i-uil-github-alt',
     },
   ],
   navBarLayout: {
     left: [],
-    right: [
-      'internalNavs',
-      'hr',
-      'socialLinks',
-      'hr',
-      'searchButton',
-      'themeButton',
-      'rssLink',
-    ],
-    mergeOnMobile: true,
+    right: ['internalNavs', 'socialLinks', 'searchButton', 'themeButton'],
+    mergeOnMobile: false,
   },
   tabbedLayoutTabs: [
     { title: 'Changelog', path: '/changelog' },
@@ -81,7 +54,7 @@ export const UI: Ui = {
     { title: 'AstroStreams', path: '/streams' },
   ],
   postView: {
-    postMetaStyle: 'minimal',
+    postMetaStyle: 'icon',
     useCoverAltAsCaption: true,
   },
   groupView: {
@@ -123,7 +96,7 @@ export const FEATURES: Features = {
     {
       authorOrBrand: `${SITE.title}`,
       fallbackTitle: `${SITE.description}`,
-      fallbackBgType: 'dot',
+      fallbackBgType: 'rose',
     },
   ],
   toc: [
@@ -167,7 +140,7 @@ export const FEATURES: Features = {
   search: [
     true,
     {
-      includes: ['blog', 'changelog'],
+      includes: ['blog'],
       filter: true,
       navHighlight: true,
       batchLoadSize: [true, 5],
