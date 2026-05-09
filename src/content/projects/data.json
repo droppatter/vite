@@ -2,58 +2,44 @@
   {
     "id": "USDA 供需月报",
     "link": "https://esmis.nal.usda.gov/publication/world-agricultural-supply-and-demand-estimates",
-    "desc": "World Agricultural Supply and Demand Estimates",
+    "desc": "ESMIS - World Agricultural Supply and Demand Estimates",
     "icon": "i-quill-paper",
     "category": "USDA"
   },
   {
     "id": "USDA 产量月报",
     "link": "https://esmis.nal.usda.gov/publication/world-agricultural-production",
-    "desc": "World Agricultural Production",
+    "desc": "ESMIS - World Agricultural Production",
     "icon": "i-quill-paper",
     "category": "USDA"
   },
   {
-    "id": "@astrojs/markdown-remark",
-    "link": "https://www.npmjs.com/package/@astrojs/markdown-remark",
-    "desc": "Astro's integration with markdown using Remark",
-    "icon": "i-la-markdown",
-    "category": "Astro Ecosystem"
+    "id": "PSD 供需数据",
+    "link": "https://esmis.nal.usda.gov/publication/world-agricultural-production",
+    "desc": "FAS - Production, Supply and Distribution",
+    "icon": "i-quill-paper",
+    "category": "USDA"
   },
   {
-    "id": "@astrojs/mdx",
-    "link": "https://www.npmjs.com/package/@astrojs/mdx",
-    "desc": "Astro's MDX support",
-    "icon": "i-logos-mdx",
-    "category": "Astro Ecosystem"
+    "id": "巴西-周度作物进展",
+    "link": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/progresso-de-safra",
+    "desc": "CONAB - Progresso de Safra",
+    "icon": "i-quill-paper",
+    "category": "Brazi and Argie"
   },
   {
-    "id": "@astrojs/rss",
-    "link": "https://www.npmjs.com/package/@astrojs/rss",
-    "desc": "Astro RSS feed generation support",
-    "icon": "i-cil-rss",
-    "category": "Astro Ecosystem"
+    "id": "巴西-周度出口数据",
+    "link": "https://anec.com.br",
+    "desc": "ANEC - Exportações Acumuladas",
+    "icon": "i-quill-paper",
+    "category": "Brazi and Argie"
   },
   {
-    "id": "@astrojs/sitemap",
-    "link": "https://www.npmjs.com/package/@astrojs/sitemap",
-    "desc": "Astro Sitemap generation",
-    "icon": "i-uil-sitemap",
-    "category": "Astro Ecosystem"
-  },
-  {
-    "id": "astro-robots-txt",
-    "link": "https://www.npmjs.com/package/astro-robots-txt",
-    "desc": "Robots.txt generator for Astro",
-    "icon": "i-catppuccin-robots",
-    "category": "Astro Ecosystem"
-  },
-  {
-    "id": "prettier-plugin-astro",
-    "link": "https://github.com/withastro/prettier-plugin-astro",
-    "desc": "Prettier plugin for Astro files",
-    "icon": "i-logos-prettier",
-    "category": "Astro Ecosystem"
+    "id": "阿根廷-周度产情数据",
+    "link": "https://www.bolsadecereales.com/?lang=ingles",
+    "desc": "BAGE",
+    "icon": "i-quill-paper",
+    "category": "Brazi and Argie"
   },
   {
     "id": "antfu/antfu.me",
